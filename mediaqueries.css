@@ -1,0 +1,149 @@
+@media (max-width: 1310px){
+    .services-info{
+        padding: 0 5rem;
+    }
+    .services-content{
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 1190px){
+    .cap-gallery .text{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1090px){
+    .services-content{
+        gap: 5px;
+        padding: 0 50px;
+    }
+    .services-info{
+        padding: 0 3rem;
+    }
+    .cate-cap{
+        font-size: 2.5rem;
+    }
+    .cate-details{
+        padding: 0 40px;
+    }
+    .cate-slogan{
+        margin: 0 40px;
+    }
+}
+@media (max-width: 950px){
+    .catering-pics{
+        display: none;
+    }
+    .catering-info{
+        gap: 30px;
+    }
+    .cate-cap{
+        font-size: 3rem;
+    }
+    .cate-details{
+        padding: 0 100px;
+    }
+    .cate-slogan{
+        margin: 0 100px;
+    }
+}
+@media (max-width: 880px){
+    .gallery{
+        flex-direction: column;
+        gap: 30px;
+        height: fit-content;
+    }
+    .gallery .cap-gallery{
+        width: 100%;
+    }
+    .gallery .images-gallery{
+        width: 100%;
+    }
+    .gallery .images-gallery > img{
+        height: 35vh;
+        width: 20vw;
+    }
+    .services-info .services-content{
+        gap: 30px;
+    }
+    .services-info{
+        height: 70vh;
+    }
+    .services-info img{
+        display: none;
+    }
+    .pizza-desc{
+        width: 70%;
+    }
+    .landing-page .content .cap-desc{
+        padding: 20px 30px;
+    }
+}
+@media (max-width: 750px){
+    header{
+        justify-content: space-between;
+    }
+    header nav{
+        /* display: none; */
+        position: fixed;
+        top: 0;
+        width: 60%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        left: -60%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        transition: 1s;
+    }
+    
+    .open{
+        display: flex;
+    }
+    .gallery .images-gallery img{
+        width: 40%;
+    }
+    .ads-content .ad-content{
+        width: 80%;
+        font-size: 3rem;
+    }
+    .services-info .services-content{
+        gap: 10px;
+    }
+    .services-info .services-caption{
+        font-size: 2.5rem;
+    }
+    .services-info{
+        padding: 0rem;
+    }
+    .catering-info{
+        gap: 20px;
+    }
+    .cate-cap{
+        font-size: 2.5rem;
+    }
+    .cate-details{
+        padding: 0 20px;
+    }
+    .cate-slogan{
+        margin: 0 10px;
+    }
+    .pizza-menu .item{
+        width: 80%;
+    }
+    .pizza-services{
+        height: fit-content;
+        padding: 30px 0;
+        gap: 20px;
+    }
+    .conc-title{
+        font-size: 3rem;
+    }
+    .conc-desc{
+        width: 80%
+    }
+    .close{
+        display: absolute;
+    }
+}
