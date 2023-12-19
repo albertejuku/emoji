@@ -50,6 +50,7 @@ cont.addEventListener("mouseout", function(){
   opens.forEach(e => {
     e.className = " "
   })
+
   opens[1].style.width = "80%"
   opens[2].style.width = "60%"
 })
