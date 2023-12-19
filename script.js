@@ -55,6 +55,7 @@ cont.addEventListener("mouseout", function(){
 })
 
 let nav = document.querySelector("nav");
+
 cont.addEventListener("click", ()=>{
   nav.style.left = "0";
 })
