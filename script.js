@@ -39,6 +39,7 @@ document.addEventListener("scroll", ()=>{
 let cont = document.querySelector(".open");
 let opens = document.querySelectorAll(".open div");
 let close = document.querySelector(".close")
+
 cont.addEventListener("mouseover", function(){
   opens.forEach(e => {
     e.className = "opens-active"
